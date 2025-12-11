@@ -1,10 +1,6 @@
 import { Stack } from "expo-router";
 import "react-native-reanimated";
 
-// export const unstable_settings = {
-//   anchor: "(tabs)",
-// };
-
 const Layout = () => {
   return (
     <Stack>
