@@ -1,6 +1,6 @@
 import CustomButton from "@/components/CustomButton";
 import { onboarding } from "@/constents";
-import { router } from "expo-router";
+import { Link, router } from "expo-router";
 import React, { useRef, useState } from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -21,6 +21,9 @@ const Onboarding = () => {
       >
         <Text className=" text-black text-md font-JakartaBold">Skip</Text>
       </TouchableOpacity>
+      <Link href="/(root)/(tabs)/home">
+        <Text>GO</Text>
+      </Link>
       <Swiper
         ref={swiperRef}
         loop={false}
