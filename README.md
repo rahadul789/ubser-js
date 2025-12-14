@@ -51,6 +51,6 @@ Join our community of developers creating universal apps.
 
 # ################################################################# MINE
 
-# Clerk: haqrahadul@gmail.com
+# Clerk, googleapikey: haqrahadul@gmail.com
 
 # Neon: rhadul134@gmail.com
